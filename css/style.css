@@ -1,6 +1,11 @@
 body {
   background: #333;
   color: #fff;
+  font-family: "Quicksand", sans-serif;
+}
+
+strong {
+  font-weight: 900;
 }
 
 .navbar {
@@ -33,7 +38,8 @@ body {
   opacity: 0.8;
 }
 
-#home-section .fas {
+#home-section .fas,
+#create-section .fas {
   color: #00ccff;
   background: #fff;
   padding: 5px;
